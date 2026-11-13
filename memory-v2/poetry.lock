@@ -1033,31 +1033,31 @@ xai = ["langchain-xai"]
 
 [[package]]
 name = "langchain-anthropic"
-version = "1.7.9"
+version = "1.7.10"
 description = "Integration package connecting Claude (Anthropic) APIs and LangChain"
 optional = false
 python-versions = "<4.0.0,>=3.10.0"
 groups = ["main"]
 files = [
-    {file = "langchain_anthropic-1.7.9-py3-none-any.whl", hash = "sha256:19a47b299d63b0124128e929458830e90524ddc6c1b578f4cc4a34ee8b1aff95"},
-    {file = "langchain_anthropic-1.7.9.tar.gz", hash = "sha256:132d63718009c5738959070f12d95fb6eac10453f68108ec8865ae38b847cc0c"},
+    {file = "langchain_anthropic-1.7.10-py3-none-any.whl", hash = "sha256:9ba64332784bddedabbeb24f5f5759f2d0dfe58244e0ef07e313e039b21ecb1f"},
+    {file = "langchain_anthropic-1.7.10.tar.gz", hash = "sha256:72869686960b3d6665f99e7c91c9f6dd4a1d9ccf73d23edd8702eb603cc2e498"},
 ]
 
 [package.dependencies]
 anthropic = ">=0.120.0"
-langchain-core = ">=1.7.3,<2.0.0"
+langchain-core = ">=1.7.5,<2.0.0"
 pydantic = ">=2.7.4"
 
 [[package]]
 name = "langchain-core"
-version = "1.7.6"
+version = "1.7.7"
 description = "Building applications with LLMs through composability"
 optional = false
 python-versions = "<4.0.0,>=3.10.0"
 groups = ["main"]
 files = [
-    {file = "langchain_core-1.7.6-py3-none-any.whl", hash = "sha256:f61908be526fbeb5da8cc1ffd9d24bce3b50cf45b3a2f1737c1a7a2958046ce6"},
-    {file = "langchain_core-1.7.6.tar.gz", hash = "sha256:0833781e3a8e6fe83073c8412c21180a0545d5ccdf3437889951caf9589ece6c"},
+    {file = "langchain_core-1.7.7-py3-none-any.whl", hash = "sha256:d69535f817e9ea949dabc85079dccc28b0cde04a579ec5c2273be2f7b09b859c"},
+    {file = "langchain_core-1.7.7.tar.gz", hash = "sha256:acc4205b5617f36cc0495ee77af7b3eedf8714941c7c14a40220be52770d4536"},
 ]
 
 [package.dependencies]
